@@ -1,0 +1,13 @@
+.main-title {
+  color: black;
+  font-family: "Ramaraja", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.contact-methods {
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto", sans-serif;
+}
