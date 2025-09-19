@@ -1,44 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Headphones Webpage</title>
-    <link rel="images" href="../images/contact-us-images/">
-    <link rel="stylesheet" href="../styles/contact-us.css">
-    <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ramaraja&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="images" href="../images/contact-us-images/">
+    <link rel="stylesheet" href="../styles/contact-us.css">
+    <link rel="stylesheet" href="../styles/normalize.css">
 </head>
 
-<header>
+<header class="header">
+
     <div class="logo">
         <img src="../images/contact-us-images/headphoneslogo.png" alt="Headphones logo" class="logo-image">
     </div>
+
     <nav class="nav">
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../gallery-page.html">Gallery</a></li>
-        <li><a href="../about-us-page.html">About us</a></li>
-        <li><a href="../contact-us-page.html">Contact us</a></li>
-      </ul>
+        <ul>
+            <li><a href="../index.html" class="colornav">Home</a></li>
+            <li><a href="../gallery-page.html" class="colornav">Gallery</a></li>
+            <li><a href="../about-us-page.html" class="colornav">About us</a></li>
+            <li><a href="../contact-us-page.html" class="colornav">Contact us</a></li>
+        </ul>
     </nav>
+
 </header>
 
-<!-- add logo and fix nav -->
+<body class="body">
 
-<body>
     <div class="main-title">
-        <p><h1>Contact us</h1></p>
+        <p class="main-title-style">
+        <h1>Contact us</h1>
+        </p>
     </div>
 
-    <div class="contact-methods">
-        <p><h3>Message us</h3></p>
-        <p><h3>Email us</h3></p>
-        <p><h3>Call us</h3></p>
-    </div>
+    <main class="main-content">
+
+        <section class="color-box">
+
+            <form class="forms">
+
+                <label for="message-us">
+                    <p class="title">Message us</p>
+                </label>
+
+                <section class="msg-us-container">
+                    <input type="text" id="message us" placeholder="Your Message" class="input-style">
+
+                    <div class="btn-container">
+                        <button type="submit" class="btn">SEND MESSAGE</button>
+                    </div>
+
+                    <!-- add icon from fontawesome -->
+                </section>
+
+                <label for="email-us">
+                    <p class="title">Email Us</p>
+                </label>
+
+                <section class="email-container">
+                    <div>
+                        <input type="text" id="email-us" placeholder="Your Email" class="input-style">
+                    </div>
+
+                    <div class="btn-container">
+                        <button type="submit" class="btn">SEND EMAIL</button>
+                    </div>
+                    <!-- add icon from fontawesome -->
+                </section>
+
+                <label for="call-us">
+                    <p class="title">Call Us</p>
+                </label>
+
+                <section class="call-us-container">
+                    <a href="#" class="number">000-111-22-33</a>
+                    <!-- add icon from fontawesome -->
+                </section>
+
+            </form>
+
+        </section>
+
+        <section class="img-box">
+            <!-- add image later -->
+        </section>
+
+    </main>
+
+    <footer class="footer">
+
+        <secion class="footer-container">
+            <div class="footer-text">
+                <p>@noisereview</p>
+            </div>
+
+            <div class="footer-icons">
+                <p>Icons here</p>
+                <!-- add social media icons from font awesome or as a png -->
+            </div>
+        </secion>
+
+    </footer>
+
 </body>
 
 </html>
