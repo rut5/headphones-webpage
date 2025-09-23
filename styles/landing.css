@@ -1,4 +1,7 @@
-.body
+body
 {
+    display:flex-start;
     background-color:#bd7482;
+    max-width:1200px;
+    max-height:700px
 }
