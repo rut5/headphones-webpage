@@ -5,3 +5,16 @@ body
     max-width:1200px;
     max-height:700px
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#bd7482;
+    border-radius:20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.hero-image img     {
+    max-width: 50%;
+}
