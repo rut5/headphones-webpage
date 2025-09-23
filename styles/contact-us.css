@@ -93,6 +93,10 @@
   margin-left: 50px;
 }
 
+.fa-solid {
+  margin-left: 10px;
+}
+
 .msg-us-container {
   display: flex;
   flex-direction: row;
@@ -142,7 +146,6 @@
 
 .btn:hover {
   background-color: #389AFF;
-  transform: 1:1;
   transition-duration: 0.5s;
 }
 
@@ -168,7 +171,7 @@
 .img-box {
   border: 10px solid;
   border-radius: 50px;
-  border-color: #bd7482;
+  border-color: #389AFF;;
   overflow: hidden;
 }
 
@@ -177,7 +180,6 @@
   max-width: 500px;
   width: 100%;
 } 
-
 
 .footer {
   display: flex;
@@ -189,29 +191,30 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  min-height: 30px;
+  min-height: 100px;
   width: 500px;
   margin-top: 50px;
-  border: 2px solid;
-  border-color: blue;
 }
 
 .footer-text {
-  display: flex;
-  justify-content: center;
-  min-height: 30px;
-  max-width: 200px;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 50px;
+  max-width: 250px;
   width: 100%;
-  border: 2px solid;
-  border-color: green;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  letter-spacing: auto;
+  display: flex;
 }
 
 .footer-icons {
   display: flex;
-  justify-content: center;
-  min-height: 30px;
-  max-width: 200px;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 50px;
+  max-width: 250px;
   width: 100%;
-  border: 2px solid;
-  border-color: green;
 }
