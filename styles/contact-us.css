@@ -171,14 +171,15 @@
 .img-box {
   border: 10px solid;
   border-radius: 50px;
-  border-color: #389AFF;;
-  overflow: hidden;
+  min-height: 300px;
+  max-width: 500px;
+  border-color: #389AFF;
 }
 
 #call-center{
-  min-height: 300px;
-  max-width: 500px;
+  height: 100%;
   width: 100%;
+  overflow: hidden;
 } 
 
 .footer {
