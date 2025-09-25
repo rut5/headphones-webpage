@@ -1,9 +1,3 @@
- {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
 
 
 body
@@ -13,20 +7,23 @@ body
     font-family:"Ramaraja","serif";
     overflow-x:hidden;
     color:#fff;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-align:space-evenly;
 
     
 }
 
 /*Navbar*/header {
     display:flex;
-
+    text-align:left;
     justify-content:space-between;
     padding:20px,60px;
     width:100%;
     padding: 20px;
     background-color:#bd7482;
     align-items:center;
-    position:absolute;
     top:0;
     left:0;
     z-index:100;
@@ -71,6 +68,7 @@ body
     max-width: 45%;
     border-radius:20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height:80vh;
 }
 
 /*Floating animation for headphones*/
@@ -92,7 +90,16 @@ body
     }
     .social-icons
     {
-        display:flex
+        display:flex;
         margin-top:20px;
+        max-width:50px;
+        gap:20px;
 
+    }
+
+    img
+    {
+        width:40px;
+        height:40px;
+        transition:transform 0.3s;
     }
