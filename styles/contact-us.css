@@ -19,24 +19,26 @@
   display: flex;
   justify-content: center;
   height: auto;
-  width: 100%;
-  margin-top: 20px;
+  width: 80%;
 }
 
 .nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  min-height: 50px;
+  justify-content: space-around;
+  min-height: 100px;
   max-width: 600px;
   width: 100%;
 }
 
 .nav ul li {
   list-style-type: none;
+  width: 100px;
+  background-color: #d895a2;
 }
 
 .colornav {
+  margin-top: 20px;
   color: black;
 }
 
@@ -49,11 +51,23 @@
   margin-bottom: 10px;
 }
 
+.company-name {
+  color: black;
+  font-family: "Ramaraja", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
 .main-title {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
+  letter-spacing: 2px;
   margin-top: 30px;
 }
 
@@ -168,18 +182,15 @@
   letter-spacing: auto;
 }
 
-.img-box {
+#call-center{
   border: 10px solid;
   border-radius: 50px;
-  min-height: 300px;
-  max-width: 500px;
-  border-color: #389AFF;
-}
-
-#call-center{
   height: 100%;
   width: 100%;
   overflow: hidden;
+  min-height: 300px;
+  max-width: 500px;
+  border-color: #389AFF;
 } 
 
 .footer {
@@ -192,20 +203,21 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  min-height: 100px;
-  width: 500px;
+  min-height: 150px;
+  width: 650px;
   margin-top: 50px;
 }
 
 .footer-text {
   justify-content: space-around;
   align-items: center;
-  min-height: 50px;
-  max-width: 250px;
+  min-height: 100px;
+  max-width: 300px;
   width: 100%;
+  color: black;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 600;
+  font-style: bold;
   font-size: 20px;
   letter-spacing: auto;
   display: flex;
@@ -215,7 +227,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  min-height: 50px;
-  max-width: 250px;
+  min-height: 100px;
+  max-width: 300px;
   width: 100%;
+}
+
+.fa-brands {
+  transform: scale(1.5);
 }
