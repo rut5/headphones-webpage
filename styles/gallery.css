@@ -44,7 +44,7 @@ nav a:hover {
 }
 
 .item {
-  background-color: #fff;
+  background-color: #ab9191;
   border-radius: 10px;
   padding: 10px;
   text-align: center;
@@ -54,4 +54,33 @@ nav a:hover {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 10px;
+  opacity:0;
+  transform:translateY(20px);
+  animation: fadeInUp 0.5s forwards;
+  animation-delay: 0.2s;;
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+/* keyframes for fade-in*/
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.item img:hover {
+  transform: scale(1.05); /* zooms the image slightly */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* adds shadow on hover */
+}
+
+.stars {
+  color: #f5c518;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.review-text {
+  font-size: 14px;
+  color: #555;
 }
