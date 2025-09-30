@@ -61,6 +61,12 @@ ul
 }
 .hero-content {
     max-width:50%;
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    align-items:center;
+    font-family:"Ramaraja","serif";
+    font-size:36px;
 }
 
 .hero-content p.first-child {
