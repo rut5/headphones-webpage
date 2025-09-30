@@ -6,6 +6,7 @@ body
     background-color:#bd7482;
     font-family:"Ramaraja","serif";
     overflow-x:hidden;
+    
     color:#fff;
     margin:0;
     padding:0;
@@ -15,9 +16,20 @@ body
     
 }
 
+ul
+{
+    display:flex;
+    text-align:space-evenly;
+    justify-content:space-between;
+    list-style:none;
+    gap:20px;
+    padding:20px,60px;
+    
+}
+
 /*Navbar*/header {
     display:flex;
-    text-align:left;
+    text-align:center;
     justify-content:space-between;
     padding:20px,60px;
     width:100%;
