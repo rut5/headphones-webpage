@@ -5,29 +5,47 @@ body {
 }
 
 .logo {
-    height:60px;
+    height:70px;
     width:auto;
+}
+.logo-text {
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    margin-left: 5px;
+    margin-top:24px;
+    letter-spacing:  0.2px;
 }
 
  nav a {
     margin-left: 15px;
     text-decoration: none;
     color: black;;
-    font: bold;
+    font-weight: bold;   
+    transition: color 0.3s ease;         
 }
 
 nav a:hover {
+    color: white;
     text-decoration: none;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+header {
+  display: flex;                       /* arrange logo/text + nav in one row */
+  align-items: center;                  /* vertical centering */
+  justify-content: space-between;       /* branding left, nav right */
   gap:50px;
-  background-color: #bd7482; /* your background color */
+  background-color: #bd7482;          /* your background color */
   padding: 10px 20px;
 }
+
+/* logo + text side by side */
+.branding {
+  display: flex;
+  align-items:center;                /* aligns logo + text neatly */
+  /*gap: 10px;   */          /* space between logo and text */
+}
+
 
 .gallery {
   display: grid;
@@ -59,7 +77,7 @@ nav a:hover {
   opacity:0;
   transform:translateY(20px);
   animation: fadeInUp 0.5s forwards;
-  animation-delay: 0.2s;;
+  animation-delay: 0.1s;;
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
 }
 
@@ -71,6 +89,19 @@ nav a:hover {
   }
 }
 
+.item h3 {
+    font-size: 15px;
+    font-weight:bold;
+    color: black;
+    letter-spacing: 0.5px;
+    transition: color 0.3s ease, transform 0.3s ease;
+
+}
+.item h3:hover {
+  color: #fff;             /* text color changes on hover */
+  transform: scale(1.05);  /* slightly enlarges the text */
+}
+
 .item img:hover {
   transform: scale(1.05); /* zooms the image slightly */
   box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* adds shadow on hover */
@@ -78,11 +109,19 @@ nav a:hover {
 
 .stars {
   color: #f5c518;
-  font-size: 16px;
+  font-size: 18px;
   margin-bottom: 5px;
 }
 
 .review-text {
   font-size: 14px;
   color: #555;
+}
+
+.review-text:hover {
+  color: white;
+  font-weight: bold;
+}
+.review-text {
+  transition: color 0.3s ease, font-weight 0.3s ease;
 }
