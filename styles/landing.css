@@ -1,0 +1,131 @@
+
+
+body
+{
+    
+    background-color:#bd7482;
+    font-family:"Ramaraja","serif";
+    overflow-x:hidden;
+    
+    color:#fff;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-align:space-evenly;
+
+    
+}
+
+ul
+{
+    display:flex;
+    text-align:space-evenly;
+    justify-content:space-between;
+    list-style:none;
+    gap:20px;
+    padding:20px,60px;
+    
+}
+
+/*Navbar*/header {
+    display:flex;
+    text-align:center;
+    justify-content:space-between;
+    padding:20px,60px;
+    width:100%;
+    padding: 20px;
+    background-color:#bd7482;
+    align-items:center;
+    top:0;
+    left:0;
+    z-index:100;
+
+}
+
+.navbar {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:100%;
+}
+
+/*Hero*-section/
+
+.hero {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:100vh;
+    background-color:#bd7482;
+   padding:0 80px;
+}
+.hero-content {
+    max-width:50%;
+    display:flex;
+    justify-content:center;
+    flex-direction:row;
+    align-items:center;
+    font-family:"Ramaraja","serif";
+    font-size:36px;
+}
+
+.hero-content p.first-child {
+    font-size:18px;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-bottom:15px;
+}   
+.hero-content p.nth-child2 {
+    font-size:55px;
+    font-weight:bold;
+    margin-bottom:20px;
+    line-height:1.2;
+}
+
+.hero-image {
+    max-width: 45%;
+    border-radius:20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-height:80vh;
+}
+
+/*Floating animation for headphones*/
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}   
+
+.social-media
+{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin-top:20px;
+    }
+    .social-icons
+    {
+        display:flex;
+        margin-top:20px;
+        max-width:50px;
+        gap:20px;
+
+    }
+
+    .logo-image
+    {
+        width:50px;
+        height:50px;
+        margin-right:10px;
+        color:#fff;
+    }
+
+    img
+    {
+        width:40px;
+        height:40px;
+        
+    }
