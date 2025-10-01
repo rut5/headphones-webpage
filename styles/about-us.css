@@ -1,0 +1,145 @@
+
+.about-body {
+  background: #bd7482;
+  color: black;
+}
+
+
+.about-page h2 {
+  color: black; 
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #bd7482; /* theme color */
+}
+
+/* Logo Container */
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 1opx;
+  flex-shrink: 0;
+}
+
+.logo img {
+  height: 60px;  
+  width: auto;
+  display: block;
+}
+
+.logo-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: black; 
+  letter-spacing: 1px;
+}
+
+.highlight {
+  color: #0e0c0c; /* light accent */
+}
+
+/* Push Nav links to Right */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px; 
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li a{
+  font-weight: bold;
+  border-bottom: 2px solid black;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  transition: color 0.3s, transform 0.2s;
+}
+
+/* Hover effect */
+.nav-links li a:hover {
+  color: #0a0909;
+  transform: scale(1.05);
+}
+
+
+/* Center Story Section */
+.company-story p {
+  color: #0a0a0a;
+  max-width: 900px;
+  text-align: center;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+/* Product grid */
+.product-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.product-card {
+  background: rgba(255, 255, 255, 0.1); /* translucent so it stands out */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+  transition: transform 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #100e0e;
+}
+
+/* Mission statement blends into page background */
+.mission {
+  background: rgba(0, 0, 0, 0.2); /* subtle contrast */
+  color: black;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.mission h2 {
+  color: black;
+  margin-bottom: 15px;
+}
+
+.mission p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+
